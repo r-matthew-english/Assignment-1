@@ -1,0 +1,63 @@
+
+header{
+  text-align:center;
+  color: #FECEA8;
+  background-color: #E84A5F;
+  height:80px;
+  padding: 20px;
+}
+body{
+  background-color: #2A363B;
+}
+img{
+  width:200px;
+  height:200px;
+}
+.options {
+  margin:50px 0;
+  text-align:center;
+}
+.option{
+  display: inline-block;
+  padding: 10px;
+  margin: 0 20px;
+  border: 4px solid red;
+  border-radius: 50%;
+}
+.option:hover{
+  cursor:pointer;
+  background: #24272E;
+}
+.result{
+  font-size: 30px;
+  color: white;
+}
+.compchoice{
+  font-size: 30px;
+  color: white;
+}
+.score{
+  border: 4px solid white;
+  text-align:center;
+  width:300px;
+  color:red;
+  font-size: 30px;
+  postion:relative;
+  margin:20px auto;
+}
+.logo{
+background:white;
+color:red;
+font-size: 16px;
+}
+
+#player{
+  position:absolute;
+  left:700px;
+  top:575px;
+}
+#comp{
+  position:absolute;
+  left:1000px;
+  top:575px;
+}
